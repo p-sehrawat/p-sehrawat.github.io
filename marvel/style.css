@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #34495e;
+    color: #ecf0f1;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.navbar ul li a:hover {
+    color: #3498db;
+}
+
+.marvel-logo {
+    width: 50%;
+    height: 20%;
+}
+
+.spidey-logo {
+    width: 60%;
+    height: 50%;
+}
+
+.iron-logo {
+    width: 60%;
+    height: 50%;
+}
+
+.captain-america-logo {
+    width: 40%;
+    height: 20%;
+}
+
+.hulk-logo {
+    width: 40%;
+    height: 40%;
+}
+
+/* SECTION */
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
+section h1 {
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1rem;
+    width: 60%;
+    height: 50px;
+}
+
+/* SECTION IMAGES */
+section#home {
+    background: url(https://1.bp.blogspot.com/-yWHfWQ7WyPo/XumBx6sizdI/AAAAAAAAT0s/Mv1ZxakH9zU0IdUUec_INdWuSoRu-OJzACK4BGAsYHg/w640-h360/black-wallpaper-pc-heroscreen.cc-4k.png) no-repeat center center/cover;
+}
+
+section#spider-man {
+    background: url(https://img.wallpapersafari.com/desktop/1920/1080/64/0/lo6TuB.png) no-repeat center center/cover;
+}
+
+section#iron-man {
+    background: url(https://web.northeastern.edu/hkn/images/cover-image.jpg) no-repeat center center/cover;
+}
+
+section#captain-america {
+    background: url(https://cdn.wallpapersafari.com/8/59/0V5Tqe.jpg) no-repeat center center/cover;
+}
+
+section#hulk {
+    background: url(https://wallpaperaccess.com/full/1288325.jpg) no-repeat center center/cover;
+}
+
+section#black {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyKrMdiPPGg5Y6oFGraMth9cLtVcn7ffADrw&usqp=CAU ) no-repeat center center/cover;
+}
