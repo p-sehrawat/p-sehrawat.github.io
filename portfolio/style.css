@@ -1,0 +1,59 @@
+body {
+	background-color: #dfe6e9;
+}
+
+#main-header .port-item {
+	width: 30%;
+}
+
+#main-header .port-item:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+	.port-item {
+		padding: 3em !important;
+	}
+}
+
+/* IMAGES */
+
+/* PROFILE PICTURE */
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/* CERTIFICATIONS */
+
+#myCarousel {
+	max-width: fit-content;
+	max-height: fit-content;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+		background-color: black;
+	}
+
+/* achievement */
+
+.achievement {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
